@@ -9,23 +9,15 @@
   box-sizing: border-box;
 }
 
-/*
-  2. Remove default margin
-*/
+
 
 * {
   margin: 0;
+    padding: 0;
 }
 
 /*
- 3. Remove default padding
-*/
-
-* {
-  padding: 0;
-}
-/*
-  4. Allow percentage-based heights in the application
+  5. Allow percentage-based heights in the application
 */
 html,
 body {
@@ -34,8 +26,8 @@ body {
 
 /*
   Typographic tweaks!
-  5. Add accessible line-height
-  6. Improve text rendering
+  6. Add accessible line-height
+  7. Improve text rendering
 */
 body {
   line-height: 1.5;
@@ -43,7 +35,7 @@ body {
 }
 
 /*
-  7. Improve media defaults
+  8. Improve media defaults
 */
 img,
 picture,
@@ -55,7 +47,7 @@ svg {
 }
 
 /*
-  8. Remove built-in form typography styles
+  9. Remove built-in form typography styles
 */
 input,
 button,
@@ -65,7 +57,7 @@ select {
 }
 
 /*
-  9. Avoid text overflows
+  10. Avoid text overflows
 */
 p,
 h1,
@@ -78,7 +70,7 @@ h6 {
 }
 
 /*
-  10. Create a root stacking context
+  11. Create a root stacking context
 */
 
 #root,
