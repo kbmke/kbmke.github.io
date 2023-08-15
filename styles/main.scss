@@ -1,5 +1,24 @@
 // home/main page start
-.about-me {
-  // temporary for visibility
-  border: 1px solid black;
+@media only screen and (min-width: 375px) and (max-width: 540px) {
+    /* ABOVE CHANGES SETTINGS AT 375px SCREEN SIZE TO 540px SCREEN SIZE*/
+}
+
+@media only screen and (min-width: 541px) and (max-width: 820px) {
+    /* ABOVE CHANGES SETTINGS AT 541px SCREEN SIZE TO 820px SCREEN SIZE*/
+}
+
+@media only screen and (min-width: 821px) and (max-width: 1440px) {
+    /* ABOVE CHANGES SETTINGS AT 821px SCREEN SIZE TO 1440px SCREEN SIZE*/
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2000px) {
+    :root {
+        font-size: 14px;
+    }
+
+    .about-me {
+        // temporary for visibility
+        border: 1px solid black;
+        width: 22rem;
+    }
 }
