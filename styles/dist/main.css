@@ -1,18 +1,16 @@
 @media only screen and (min-width: 375px) and (max-width: 540px) {
-  /* ABOVE CHANGES SETTINGS AT 375px SCREEN SIZE TO 540px SCREEN SIZE*/
+  /*ABOVE CHANGES SETTINGS AT 375px SCREEN SIZE TO 540px SCREEN SIZE*/
 }
 @media only screen and (min-width: 541px) and (max-width: 820px) {
-  /* ABOVE CHANGES SETTINGS AT 541px SCREEN SIZE TO 820px SCREEN SIZE*/
+  /*ABOVE CHANGES SETTINGS AT 541px SCREEN SIZE TO 820px SCREEN SIZE*/
 }
-@media only screen and (min-width: 821px) and (max-width: 1440px) {
-  /* ABOVE CHANGES SETTINGS AT 821px SCREEN SIZE TO 1440px SCREEN SIZE*/
-}
-@media only screen and (min-width: 1441px) and (max-width: 2000px) {
+@media only screen and (min-width: 821px) and (max-width: 2000px) {
+  /*ABOVE CHANGES SETTINGS AT 821px SCREEN SIZE TO 2000px SCREEN SIZE*/
   :root {
     font-size: 14px;
   }
   .about-me {
     border: 1px solid black;
-    width: 22rem;
+    width: 42rem;
   }
 }
