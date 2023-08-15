@@ -8,6 +8,7 @@
   /*ABOVE CHANGES SETTINGS AT 821px SCREEN SIZE TO 2000px SCREEN SIZE*/
   :root {
     font-size: 14px;
+    font-family: "Bricolage Grotesque", sans-serif;
   }
   .about-me {
     border: 1px solid black;
