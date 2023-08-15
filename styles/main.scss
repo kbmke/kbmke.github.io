@@ -14,9 +14,29 @@
         font-family: 'Bricolage Grotesque', sans-serif;
     }
 
+    // ID FORMATTING START
+    #welcome {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    // ID FORMATTING END
+
+    // CLASS FORMATTING START
     .about-me {
         // temporary for visibility
         border: 1px solid black;
         width: 42rem;
+        margin: 3rem 2rem;
+
+        .about-me-title {
+            font-size: 2.5rem;
+
+            .about-me-para {
+                font-size: 1.2rem;
+            }
+        }
     }
+
+    // CLASS FORMATTING END
 }
