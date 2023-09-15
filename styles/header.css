@@ -1,0 +1,15 @@
+.nav-item {
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.hlinkedin,
+.hgithub {
+    color: purple;
+}
+
+.hhome {
+    color: lightseagreen;
+}
